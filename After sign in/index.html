@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!--NAVBAR-->
+    <div class="wrapper site-header__wrapper">
+        <nav class="nav">
+          <div class="nav__toggle" aria-expanded="false" tabindex="0">
+            <i class="fa-regular fa-bars"></i>
+          </div>      
+          <ul class="nav__wrapper">
+            <span class="nav__item"><a href="index.html">Home</a></span>
+            <span class="nav__item"><a href="calendar.html">Monthly Calendar</a></span>
+            <span class="nav__item"><a href="aboutus.html">About Us</a></span>
+            <span class="nav__item"><a href="index4.html">Contact Us</a></span>
+          </ul>
+        </nav>
+        <a href="index.html">
+          <button class="signin-button" aria-label="Sign in">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+            <span>Log out</span>
+          </button>
+        </a>
+      </div>
+
+      <br><br><br><br><br><br><br>
+
+    <!--IMAGE SLIDER-->
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="Scakes.jpg">
+            </div>
+            <div class="item">
+                <img src="Scookies.jpg">
+            </div>
+            <div class="item">
+                <img src="Spancakes.jpg">
+            </div>
+            <div class="item">
+                <img src="spiesss.jpg">
+            </div>
+        </div>
+
+        <!--arrows-->
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+        <!--4 dots-->
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    
+    <br> <br> <br>
+
+    <!--FOOD CATEGORIES-->
+    <section class="categories">
+      <div class="center">
+        <h1>Our Food Categories</h1>
+      </div>
+      <div class="categories-content">
+        <div class="box">
+          <a href="">
+          <img src="ccakes.jpg"> 
+          </a>
+          <h3>Cakes</h3>
+          <h5>See more!</h5>
+        </div>
+  
+        <div class="box">
+          <a href="" class="pics">
+          <img src="ccookies.jpg">
+          </a>
+          <h3>Cookies</h3>
+          <h5>See more!</h5>
+        </div>
+  
+        <div class="box">
+          <a href="">
+          <img src="cpancakes.jpg">
+          </a>
+          <h3>Pancakes</h3>
+          <h5>See more!</h5>
+        </div>
+
+        <div class="box">
+          <a href="">
+          <img src="cpies.jpg">
+          </a>
+          <h3>Pies</h3>
+          <h5>See more!</h5>
+          <div class="icons">
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-facebook-box-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
