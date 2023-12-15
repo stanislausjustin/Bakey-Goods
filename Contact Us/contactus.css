@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #ecebdf;
+}
+
+.h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+table {
+    height: 700px;
+    width: 100%;
+    border-spacing: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container td {
+    border: 2px solid black;
+    height: auto;
+    animation: ease-in;
+    transition: width 3s;
+}
+
+
+
+.content {
+    width: 95%;
+    height: 500px;
+    margin: 35px 35px;
+    margin-top: 10px;
+
+}
+
+.small-box {
+    width: 30%;
+    
+}
+
+.fatass {
+    width: 55%;
+
+}
