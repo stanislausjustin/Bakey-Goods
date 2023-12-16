@@ -5,16 +5,19 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 25px;
+    
 }
 
 h2 {
     text-align: center;
     font-size: 25px;
-    
+
 }
 
 .wall {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
     margin-bottom: 10px;
     margin-right: auto;
     margin-left: auto;
@@ -36,6 +39,3 @@ h2 {
     margin: 35px 27px;
     display: inline-block
 }
-
-
-
