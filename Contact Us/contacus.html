@@ -3,39 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us- </title>
+    <title>Contact Us - A Guide to Bakey's Goods</title>
     <link rel="stylesheet" href="contactus.css">
+    <script src="contactus.js"></script>
 
 </head>
 <body>
-
-    <h1>Chancellor Navbar</h1>
+    
+        <!--NAVBAR-->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="calendar.html">Monthly Calendar</a></li>
+                <li class="active"><a href="aboutus.html">About Us</a></li>
+                <li class="active"><a href="index4.html">Contact Us</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <button class="toggle-btn"> S </button>
+                </li>
+                <li><a href="logout">Logout</a></li>
+              </ul>
+            </div>
+          </nav>
+   
     <div class="container">
         <div class="content">
-            
+
             <table>
                 <div class="tb1">
                     <tr>
 
-                        <td class="small-box"> <h1>Contact Us</h1>
-                            <p>...</p></td>
-                        
-                        <td rowspan="2" class="fatass"> <h1>Contact Us</h1>
-                            <p>...</p></td>
+                        <td class="small-box"> <h2>Contact Us</h2>
+                            <p></p></td>
+                            
+                        <td rowspan="2" class="fatass"><h1></h1>
+                            <br>
+                        <p> Feel free to email us at abakeysgoods@gmail.com or send a message below! 
+                            <P> 
+                           
+
+                            <div class="emailme">
+                                <form action="" class="form">
+                            <br>
+                                <label for="Name"></label>
+                                <input type="text" id="email" name="email" placeholder="Name"></input>
+                            <br> <br>
+                                <label for="Email"></label>
+                                <input type="text" id="email" name="email" placeholder="Email"></input>
+                            <br> <br>
+                                <label for="Question"></label>
+                                <textarea id="Question" name="Question" placeholder="Message here" style="height:200px",width="350px"></textarea>
+                            <br>
+                                <input type="Submit" value="Send">
+
+
+                                </form>
+                            </p></td>
                     </tr>
                 </div>
                 <div class="tb2">
                     <tr>
 
-                        <td class="small-box"> <h1>Contact Us</h1>
-                            <p>...</p></td>
-                        
+                        <td class="small-box"> <h1></h1>
+                            <p>
+
+                                <div class="social">
+                                
+                                
+                                <img class="facebook" src="facebook.png" alt="facebook"
+                                width="75"> 
+                                
+                                <img class="instagram" src="instagram.png" alt="instagram"
+                                width="75">
+                                
+                                <img class="twitter" src="twitter.png" alt="twitter"
+                                width="75">
+                                
+                                </div>
+                            </p></td>
+
                     </tr>
                 </div>
 
             </table>
         </div>
     </div>
-    
+
 </body>
 </html>
